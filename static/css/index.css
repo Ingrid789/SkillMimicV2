@@ -2,6 +2,12 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.siggraph-year {
+  font-size: 1.4rem;  /* 调整这个值改变大小 */
+  color: #3c9ff7;    /* 调整这个值改变颜色 */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
 
 .footer .icon-link {
     font-size: 25px;

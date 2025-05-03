@@ -67,7 +67,7 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title"><img src="static/images/sm2_icon.png" style="height: 60px; margin-bottom: -3px;">Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations</h1>            
-            <!-- <div class="has-text-centered mb-4 cvpr-year">CVPR 2025 🏆 Highlight</div> -->
+            <div class="has-text-centered mb-4 siggraph-year">Siggraph 2025</div>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="https://ingrid789.github.io/IngridYu/">Runyi Yu*</a><sup>1</sup>,
@@ -108,7 +108,7 @@
                     <span>Paper PDF</span>
                   </a>
                 </span>
-                <!-- <span class="link-block">
+                <span class="link-block">
                   <a href="https://arxiv.org/abs/2408.15270"
                      class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -116,9 +116,9 @@
                     </span>
                     <span>arXiv</span>
                   </a>
-                </span> -->
+                </span>
                 <!-- Video Link. -->
-                <!-- <span class="link-block">
+                <span class="link-block">
                   <a href="https://youtu.be/j1smsXilUGM"
                      class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -126,7 +126,7 @@
                     </span> 
                     <span>Video</span>
                   </a>
-                </span> -->
+                </span>
                 <!-- Code Link. -->
                 <span class="link-block">
                   <a href="https://github.com/Ingrid789/SkillMimic-V2"
@@ -134,19 +134,9 @@
                     <span class="icon">
                         <i class="fab fa-github"></i>
                     </span>
-                    <span>Code (Coming Soon)</span>
+                    <span>Code</span>
                     </a>
                 </span>
-                <!-- Dataset Link. -->
-                <!-- <span class="link-block">
-                  <a href="https://github.com/wyhuai/SkillMimic/tree/main/skillmimic/data/motions/BallPlay-M"
-                     class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                        <i class="far fa-images"></i>
-                    </span>
-                    <span>Dataset</span>
-                  </a>
-                </span> -->
               </div>
             </div>
             
@@ -162,7 +152,6 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <!-- <h2 class="title is-3"><span class="dnerf">AnySkill</span> model</h2> -->
           <div class="content has-text-justified">
             <img src="./static/images/page_teaser.png"/>
           </div>
@@ -214,6 +203,39 @@
   </div>
 </section>
 <!-- End poster -->
+
+<!-- 3D demo-->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div id="teaser-demo" class="container is-max-desktop">
+      <div class="has-text-centered">
+        <h2 class="title is-3">3D Visualization</h2>
+        <!-- <h2 class="subtitle"><sup>*</sup>Drag mouse to rotate & scroll wheel to zoom in/out</h2> -->
+        <h2 class="subtitle has-text-centered">
+          <p style="color: rgb(219, 54, 32); font-size: 0.9em;"> <b>Note</b>: <b>Select</b> a motion from dropdown and <b>drag</b> to move your view.</p>
+        </h2>
+      </div>
+      <br />
+      <!-- <div class="carousel demo-carousel"> -->
+      <div class="demo-carousel">
+        <div class="item has-text-centered">
+          <div style="position: absolute; left: 5%;">
+            <span style="font-size: 1.2em;"><b>Motions</b> </span>
+            <div class="select is-small">
+              <select id="motionSelector">
+                <option>Parahome-pickup-book</option>
+                <option>Basketball-matchup</option>
+              </select>
+            </div>
+          </div>
+          <div id="motion_loading" style="position: absolute; left: 50%; top: 45%;"></div>
+          <canvas id="canvas1" class="webgl" style="height: 100%; width: 100%;"></canvas> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End 3D demo-->
 
 <!-- Poster -->
 <section class="hero is-small">
@@ -472,6 +494,30 @@
   </div>
 </section>
 <!-- End small video carousel-->
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="has-text-centered">
+      <h2 class="title is-3">BibTeX</h2>
+    </div>
+    <pre>
+      <code>
+        @misc{wang2024skillmimic,
+          title={SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations }, 
+          author={Runyi Yu, Yinhuai Wang, Qihan Zhao, Hok Wai Tsui, Jingbo Wang, Ping Tan and Qifeng Chen},
+          year={2025},
+          eprint={xxxx.xxxx},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}
+      }
+      </code>
+  </pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
 
 <footer class="footer">
   <div class="container">

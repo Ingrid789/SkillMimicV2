@@ -5,7 +5,7 @@ import { DRACOLoader } from 'https://unpkg.com/three@0.127.0/examples/jsm/loader
 
 const W_H = 16 / 9;
 const moSel = document.querySelector('#motionSelector')
-moSel.value = 'HLC-Scoring-FixedBasket'
+moSel.value = 'Parahome-pickup-book'
 // let allModelUrl = ['./assets/generated_motions/RaiseTwoArms.glb'];
 // let allModelUrl = new URL(`./assets/grasp_generation_color/RaiseTwoArms.glb`, import.meta.url)
 const allCanvas = document.querySelectorAll('canvas');
